@@ -41,5 +41,20 @@ ollama run mistral
 │ ├── tags.csv  
 │ └── ...  
 ├── your_code_files.py  
-└── ...  
+└── ...
+
+## **Running the Project**
+
+1. Ensure all dependencies are installed.  
+2. Start Ollama:
+
+  ```bash ollama run mistral```
+
+ 3. Launch the Streamlit app from the project root:
+
+  ```streamlit run your_code_file.py```
+
+ 4. Open your browser at the URL displayed by Streamlit (usually http://localhost:8501) to interact with the RAG movie recommender via the chat interface.
+
+
 
